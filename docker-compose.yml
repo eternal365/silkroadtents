@@ -40,7 +40,6 @@ services:
       WORDPRESS_DB_NAME: ${DB_DATABASE}
       WORDPRESS_DB_USER: ${DB_USERNAME}
       WORDPRESS_DB_PASSWORD: ${DB_PASSWORD}
-      WORDPRESS_DEBUG: true
     volumes:
       - ./docker/php.ini:/usr/local/etc/php/conf.d/php.ini
       - ./wp-content/languages:/var/www/html/wp-content/languages
