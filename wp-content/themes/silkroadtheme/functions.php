@@ -69,7 +69,7 @@ add_filter('excerpt_more', function () {
 add_action('wp_enqueue_scripts', function () {
   $scriptsUrl = get_template_directory_uri();
   $stylesUrl = get_stylesheet_directory_uri();
-  $version = '1.0.0';
+  $version = '1.0.1';
 
   // Bootstrap tooltips require Tether / Bootstrap dropdowns require Popper
   wp_enqueue_script('tether', $scriptsUrl . '/js/tether.min.js', ['jquery'], $version, true);
@@ -99,7 +99,7 @@ add_action('wp_enqueue_scripts', function () {
   //	'userid' => get_current_user_id()
   //));
 
-  wp_enqueue_style('styles', $stylesUrl . '/style.css');
+  wp_enqueue_style('styles', $stylesUrl . '/style.css', [], $version);
 });
 
 /**
