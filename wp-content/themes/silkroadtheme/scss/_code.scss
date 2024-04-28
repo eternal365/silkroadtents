@@ -1,0 +1,35 @@
+// Code
+.styleguide {
+    .highlight {
+        padding: 1.5rem;
+        border-left: 4px solid #eb606b;
+        background-color: #1a1e24;
+        pre {
+            padding: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+            background-color: transparent;
+            border: 0;
+            .language-html {
+                color: #cdd3d7;
+                .nt {
+                    color: #5fb3b3;
+                }
+                .na {
+                    color: #bb80b3;
+                }
+                .s {
+                    color: #99c794;
+                }
+            }
+        }
+    }
+}
+
+// Media Queries
+//----------------------------------------------------------
+
+@include media-breakpoint-up(sm) { }
+@include media-breakpoint-up(md) { }
+@include media-breakpoint-up(lg) { }
+@include media-breakpoint-up(xl) { }

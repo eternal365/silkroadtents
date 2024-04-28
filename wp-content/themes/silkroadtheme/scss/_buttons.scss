@@ -1,0 +1,30 @@
+// Code
+.styleguide {
+    .btn-primary-pb {
+        color: #fff;
+        background-color: #5fb3b3;
+        border-color: #4c9696;
+    }
+}
+.btn-secondary {
+    background-color: transparent;
+}
+.btn-secondary:hover {
+    color: $srt-pink;
+    font-weight: 900;
+    background-color: $srt-nav;
+    border: 1px solid $srt-nav;
+    // Nice box-shadow
+    -webkit-box-shadow: 0px 0px 45px 5px rgba(153,147,147,0.9);
+    -moz-box-shadow: 0px 0px 45px 5px rgba(153,147,147,0.9);
+    box-shadow: 0px 0px 45px 5px rgba(153,147,147,0.9);
+}
+
+
+// Media Queries
+//----------------------------------------------------------
+
+@include media-breakpoint-up(sm) { }
+@include media-breakpoint-up(md) { }
+@include media-breakpoint-up(lg) { }
+@include media-breakpoint-up(xl) { }

@@ -1,0 +1,33 @@
+
+
+//******************
+// Wedding Services
+//******************
+
+.services-img  {
+  height: 200px;
+  -webkit-box-shadow: 0px 0px 45px 5px rgba(153,147,147,0.9);
+  -moz-box-shadow: 0px 0px 45px 5px rgba(153,147,147,0.9);
+  box-shadow: 0px 0px 45px 5px rgba(153,147,147,0.9);
+}
+.services-title {
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.75s;
+  text-transform: uppercase;
+}
+.services-title:hover {
+  opacity: 0.8;
+  transition: all 0.75s;
+  background-color: $srt-nav;
+}
+
+//Gallery
+
+.tiled-gallery .gallery-row {
+  margin: auto;
+}

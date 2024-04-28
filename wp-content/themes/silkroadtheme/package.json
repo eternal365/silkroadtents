@@ -1,0 +1,22 @@
+{
+	"name": "pb-bootstrap-4",
+	"version": "0.0.2",
+	"private": true,
+	"devDependencies": {
+		"grunt": "^1.0.3",
+		"grunt-contrib-jshint": "^3.2.0",
+		"grunt-contrib-sass": "^2.0.0",
+		"grunt-contrib-watch": "^1.1.0",
+		"jshint": "^2.9.6",
+		"sass": "^1.69.5"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@bitbucket.org:pointblankltd/pb-bootstrap-4.git"
+	},
+	"dependencies": {
+		"bootstrap": "^4.1.2",
+		"jquery": "^3.3.1",
+		"popper.js": "^1.14.3"
+	}
+}

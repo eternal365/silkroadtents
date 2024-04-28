@@ -1,0 +1,18 @@
+// Image styles  
+
+.content img {
+	@include img-fluid;
+}
+
+p.wp-caption-text {
+	font-size: $font-size-sm;
+}
+
+// Media Queries
+//----------------------------------------------------------
+
+@include media-breakpoint-up(sm) { }
+@include media-breakpoint-up(md) { }
+@include media-breakpoint-up(lg) { }
+@include media-breakpoint-up(xl) { }
+

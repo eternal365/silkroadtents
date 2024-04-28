@@ -1,0 +1,11 @@
+.idea/
+wp-admin/
+wp-content/*
+!wp-content/languages/
+!wp-content/plugins/
+!wp-content/themes/
+wp-content/themes/*
+!wp-content/themes/silkroadtheme
+wp-includes/
+.DS_Store
+.env
