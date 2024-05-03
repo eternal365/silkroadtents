@@ -16,20 +16,16 @@
 @import "main-landing";
 
 body {
-  padding-top: 0px;
-  // Optimize webfont legibility
-  text-rendering: optimizeLegibility;
-  //speak: none;
+  background-color: white;
+  font-family: "Libre Baskerville", serif;
+  font-size: 1rem;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  font-family: "Raleway";
-  -webkit-font-smoothing: antialiased;
-  background-color: white;
+  text-rendering: optimizeLegibility;
   color: $srt-bg;
-  transition: 0.5s all;
-  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
 }
 
 // Text elements
@@ -157,7 +153,6 @@ a {
 
 .page-title {
   color: $srt-nav;
-  font-family: "Raleway";
   font-size: 2rem;
   font-weight: 600;
   margin: 2rem 0;

@@ -1,25 +1,25 @@
 // Fonts
 @font-face {
-    font-family: 'Geomanist';
-    src: url('fonts/Geomanist/geomanist-regular-webfont.eot');
-    src: local('Geomanist'), local('Geomanist'), url('fonts/Geomanist/geomanist-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Geomanist/geomanist-regular-webfont.woff2') format('woff2'), url('fonts/Geomanist/geomanist-regular-webfont.woff') format('woff'), url('fonts/Geomanist/geomanist-regular-webfont.ttf') format('truetype'), url('fonts/Geomanist/geomanist-regular-webfont.svg#Geomanist') format('svg');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Chancery";
+  src: url("fonts/Chancery/CHANCERY.eot");
+  src: local("Chancery"), local("Chancery"), url("fonts/Chancery/CHANCERY.eot?#iefix") format("embedded-opentype"), url("fonts/Chancery/CHANCERY.woff") format("woff"), url("fonts/Chancery/CHANCERY.ttf") format("truetype"), url("fonts/Chancery/CHANCERY.svg#BlackChancery") format("svg");
+  font-style: normal;
+  font-display: swap;
 }
 
-@font-face {
-    font-family: 'Chancery';
-    src: url('fonts/Chancery/CHANCERY.eot');
-    src: local('Chancery'), local('Chancery'), url('fonts/Chancery/CHANCERY.eot?#iefix') format('embedded-opentype'), url('fonts/Chancery/CHANCERY.woff') format('woff'), url('fonts/Chancery/CHANCERY.ttf') format('truetype'), url('fonts/Chancery/CHANCERY.svg#BlackChancery') format('svg');
-    font-style: normal;
-    font-display: swap;
-}
+//@font-face {
+//  font-family: "Geomanist";
+//  src: url("fonts/Geomanist/geomanist-regular-webfont.eot");
+//  src: local("Geomanist"), local("Geomanist"), url("fonts/Geomanist/geomanist-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Geomanist/geomanist-regular-webfont.woff2") format("woff2"), url("fonts/Geomanist/geomanist-regular-webfont.woff") format("woff"), url("fonts/Geomanist/geomanist-regular-webfont.ttf") format("truetype"), url("fonts/Geomanist/geomanist-regular-webfont.svg#Geomanist") format("svg");
+//  font-weight: 100;
+//  font-style: normal;
+//  font-display: swap;
+//}
 
-@font-face {
-    font-family: 'Raleway';
-    src: url('fonts/Raleway/raleway-regular.eot');
-    src: local('Raleway'), local('Raleway'), url('fonts/Raleway/raleway-regular.eot?#iefix') format('embedded-opentype'), url('fonts/Raleway/raleway-regular.woff') format('woff'), url('fonts/Raleway/raleway-regular.woff2') format('woff2'), url('fonts/Raleway/raleway-regular.ttf') format('truetype'), url('fonts/Raleway/raleway-regular.svg#Raleway') format('svg');
-    font-style: normal;
-    font-display: swap;
-}
+//@font-face {
+//  font-family: "Raleway";
+//  src: url("fonts/Raleway/raleway-regular.eot");
+//  src: local("Raleway"), local("Raleway"), url("fonts/Raleway/raleway-regular.eot?#iefix") format("embedded-opentype"), url("fonts/Raleway/raleway-regular.woff") format("woff"), url("fonts/Raleway/raleway-regular.woff2") format("woff2"), url("fonts/Raleway/raleway-regular.ttf") format("truetype"), url("fonts/Raleway/raleway-regular.svg#Raleway") format("svg");
+//  font-style: normal;
+//  font-display: swap;
+//}
