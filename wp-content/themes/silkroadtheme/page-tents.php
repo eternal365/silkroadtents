@@ -2,32 +2,36 @@
 
 <?php if (have_posts()): while (have_posts()): the_post(); ?>
 
-  <div class="header-image-wrapper">
+  <?php if (get_field('header_enabled') !== false): ?>
     <?php $backgroundImg = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'feature'); ?>
-    <div class="header-image" style="background: url('<?php echo $backgroundImg[0]; ?>') no-repeat center bottom; background-size: cover;"></div>
-    <div class="container">
-      <?php
+    <div class="header-image-wrapper">
+      <div class="header-image" style="background: url('<?php echo $backgroundImg[0]; ?>') no-repeat center bottom; background-size: cover;"></div>
+      <div class="container">
+        <?php
 
-      $field = get_field_object('caption_position');
-      $value = get_field('caption_position');
-      $label = $field['choices'][$value];
-      $placement = get_field('caption_position');
+        $field = get_field_object('caption_position');
+        $value = get_field('caption_position');
+        $label = $field['choices'][$value];
+        $placement = get_field('caption_position');
 
-      ?>
-      <div class="feature-caption <?php echo $placement ?>">
-        <div class="feature-caption-text">
-          <h2 class="display-4"><?php the_field('header_text'); ?></h2>
-          <h4 class="display-5"><?php the_field('header_sub_text'); ?></h4>
-        </div>
-        <?php if (get_field('header_link_url')) { ?>
-          <div class="feature-link-btn pb-6">
-            <a href="<?php the_field('header_link_url'); ?>" class="btn btn-lg btn-secondary"><?php the_field('header_link_text'); ?></a>
+        ?>
+        <div class="feature-caption <?php echo $placement ?>">
+          <div class="feature-caption-text">
+            <h2 class="display-4"><?php the_field('header_text'); ?></h2>
+            <h4 class="display-5"><?php the_field('header_sub_text'); ?></h4>
           </div>
-        <?php } ?>
-        <div class="clearfix"></div>
+          <?php if (get_field('header_link_url')): ?>
+            <div class="feature-link-btn pb-6">
+              <a href="<?php the_field('header_link_url'); ?>" class="btn btn-lg btn-secondary">
+                <?php the_field('header_link_text'); ?>
+              </a>
+            </div>
+          <?php endif; ?>
+          <div class="clearfix"></div>
+        </div>
       </div>
     </div>
-  </div>
+  <?php endif; ?>
 
   <div class="container">
     <div class="row">
